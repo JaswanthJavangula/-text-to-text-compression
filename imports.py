@@ -1,0 +1,1 @@
+pip install "torch==2.2.0" "transformers==4.37.2" "sentence-transformers"
