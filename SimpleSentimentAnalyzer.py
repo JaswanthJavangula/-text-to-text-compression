@@ -12,7 +12,7 @@ def main():
     )
 
     print("=== Simple Sentiment Analyzer ===")
-    print("Type a sentence and press Enter. Type 'quit' to exit.\n")
+    print("Type a sentence and press ENTER. Type 'quit' to exit.\n")
 
     while True:
         text = input("Text> ").strip()
