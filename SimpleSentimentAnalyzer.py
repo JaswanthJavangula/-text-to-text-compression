@@ -3,7 +3,7 @@ import torch
 
 
 def main():
-    # 1. Load a small sentiment model via pipeline
+    # 1. Load a Small sentiment model via pipeline
     # If you omit model=..., it uses a default SST-2 model.
     classifier = pipeline(
         task="text-classification",
