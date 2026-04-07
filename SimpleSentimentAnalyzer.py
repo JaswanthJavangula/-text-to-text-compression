@@ -11,7 +11,7 @@ def main():
         device=0 if torch.cuda.is_available() else -1,
     )
 
-    print("=== le Sentiment Analyzer ===")
+    print("=== the Sentiment Analyzer ===")
     print("Type a sentence and press ENTER. Type 'quit' to exit.\n")
 
     while True:
